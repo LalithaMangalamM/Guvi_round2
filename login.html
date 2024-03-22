@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">Login Page</div>
+        <form id="loginForm" method="post" action="">
+            <div class="user-details">
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Enter your email" id="email" name="email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input type="password" placeholder="Enter your password" id="password" name="password" required>
+              </div>
+            </div>
+              <div class="button">
+                <input type="submit" id="button" value="Register">
+              </div>
+        </form>
+        <div id="login-signup">
+          <p id="login">Don't have an account? <a href="./register.html">Register</a></p>
+
+        </div>
+        <div class="output"></div>
+    </div>
+</body>
+</html>
